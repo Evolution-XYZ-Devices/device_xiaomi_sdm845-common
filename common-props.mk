@@ -152,7 +152,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.rcs.supported=0 \
     persist.vendor.ims.disableUserAgent=0 \
-    persist.radio.calls.on.ims=1
+    persist.radio.calls.on.ims=1 \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.wfc_avail_ovr=1
 
 # Radio Options
 PRODUCT_PROPERTY_OVERRIDES += \
