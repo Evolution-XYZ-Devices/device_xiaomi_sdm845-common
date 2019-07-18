@@ -305,6 +305,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
+# ThermalController app
+PRODUCT_PACKAGES += \
+    ThermalController
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
