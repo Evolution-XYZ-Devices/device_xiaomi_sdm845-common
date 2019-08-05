@@ -124,7 +124,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.power.rc
 
 # Context Hub
 PRODUCT_PACKAGES += \
@@ -239,10 +240,10 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.xiaomi_sdm845
+    android.hardware.power@1.3-service.dipper-libperfmgr
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/power/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    $(LOCAL_PATH)/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # QTI
 PRODUCT_PACKAGES += \
