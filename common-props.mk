@@ -149,7 +149,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
-    persist.rcs.supported=0 \
+    persist.rcs.supported=1 \
     persist.vendor.ims.disableUserAgent=0 \
     persist.radio.calls.on.ims=1 \
     persist.dbg.ims_volte_enable=1 \
@@ -160,7 +160,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.rat_on=combine \
     persist.radio.data_ltd_sys_ind=1 \
-    persist.radio.data_con_rprt=1
+    persist.radio.data_con_rprt=1 \
+    persist.radio.VT_ENABLE=1 \
+    persist.radio.volte.dan_support=true \
+    persist.data.iwlan=1 \
+    persist.data.iwlan.ipsec.ap=1 \
+    persist.sys.cust.lte_config=true
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
