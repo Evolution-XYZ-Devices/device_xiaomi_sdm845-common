@@ -72,7 +72,7 @@ ro.netflix.bsp_rev=Q845-05000-1
 ro.vendor.qti.va_aosp.support=1
 
 # RCS
-persist.rcs.supported=0
+persist.rcs.supported=1
 
 # RIL
 DEVICE_PROVISIONED=1
@@ -98,6 +98,12 @@ persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
 persist.dbg.ims_volte_enable=1
 persist.dbg.wfc_avail_ovr=1
+persist.radio.data_con_rprt=1
+persist.radio.VT_ENABLE=1
+persist.radio.volte.dan_support=true
+persist.data.iwlan=1
+persist.data.iwlan.ipsec.ap=1
+persist.sys.cust.lte_config=true
 
 # SSR
 persist.vendor.ssr.enable_ramdumps=0
