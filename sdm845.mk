@@ -354,6 +354,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdisplayconfig \
     libnl \
+    libaacwrapper \
     libqdMetaData.system
 
 PRODUCT_BOOT_JARS += \
