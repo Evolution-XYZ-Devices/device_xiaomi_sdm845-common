@@ -299,8 +299,8 @@ PRODUCT_PACKAGES += \
     thermal.sdm845
 
 # ThermalController app
-PRODUCT_PACKAGES += \
-    ThermalController
+#PRODUCT_PACKAGES += \
+#    ThermalController
 
 # USB
 PRODUCT_PACKAGES += \
