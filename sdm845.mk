@@ -150,10 +150,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
-    libdisplayconfig \
-    libdisplayconfig.vendor \
-    libqdMetaData \
-    libqdMetaData.system \
     libtinyxml \
     libvulkan \
     memtrack.sdm845 \
@@ -381,8 +377,10 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    libdisplayconfig \
     libnl \
-    libaacwrapper
+    libaacwrapper \
+    libqdMetaData.system
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
