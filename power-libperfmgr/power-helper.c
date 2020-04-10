@@ -28,7 +28,7 @@
  */
 
 #define LOG_NIDEBUG 0
-#define LOG_TAG "android.hardware.power@1.3-service.dipper-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.beryllium-libperfmgr"
 
 #include <errno.h>
 #include <inttypes.h>
@@ -55,7 +55,7 @@
 #endif
 
 #ifndef TARGET_TAP_TO_WAKE_NODE
-#define TARGET_TAP_TO_WAKE_NODE "/dev/input/event3"
+#define TARGET_TAP_TO_WAKE_NODE "/dev/input/event2"
 #endif
 
 #define LINE_SIZE 128
